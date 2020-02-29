@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	int a, b, c, d, e;
+	int a, b, c, d, e, f;
 
 	cin >> a >> b;
 
@@ -14,7 +14,9 @@ int main()
 
 	e = b / 100 * a;
 
-	cout << c << endl << d << endl << e << endl;
+	f = a * b;
+
+	cout << c << endl << d << endl << e << endl << f;
 
 	return 0;
 }
